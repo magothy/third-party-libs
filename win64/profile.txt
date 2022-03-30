@@ -1,0 +1,5 @@
+include(default)
+
+[settings]
+arch=x86_64
+cppstd=14

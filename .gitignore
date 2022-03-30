@@ -1,0 +1,7 @@
+.DS_Store
+*.swp
+build/
+.conan/
+cmake
+cmake-*
+Anaconda3-*.sh
