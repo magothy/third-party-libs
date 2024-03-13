@@ -10,7 +10,7 @@ export CONAN_USER_HOME="$SYSTEM_SPECIFIC_DIR" # conan adds a .conan dir after th
 
 mkdir -p "$BUILD_DIR"
 pushd "$BUILD_DIR"
-conan remote add --force magothy https://jfrog.magothyrt.com/artifactory/api/conan/magothy
+conan remote add --force magothy https://jfrog.magothyrt.com/artifactory/api/conan/magothy --insert=0
 conan install "$THIS_DIR" --build missing --profile "$CONAN_PROFILE"
 cp -r lib "$SYSTEM_SPECIFIC_DIR"
 cp -r include "$THIS_DIR"
