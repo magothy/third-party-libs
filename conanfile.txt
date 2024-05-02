@@ -1,5 +1,6 @@
 [requires]
 t3cproto/v1@magothy/stable
+mrtproto/v2@magothy/stable
 
 [imports]
 lib, * -> ./lib
